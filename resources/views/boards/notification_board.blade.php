@@ -72,11 +72,11 @@
                     <form class="w-full bg-white p-6">
                         <div class="relative shadow">
                             <label for="countries"
-                                class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900 dark:text-white">Filter
+                                class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900">Filter
                                 by
                                 API Key</label>
                             <select id="countries"
-                                class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 font-semibold">
+                                class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 font-semibold">
                                 <option>All</option>
                                 <option>Canada</option>
                             </select>
@@ -93,9 +93,9 @@
             <div class="relative mt-6 p-4">
                 <p class="text-xl font-semibold">Sent notications</p>
                 <div class="mt-5 relative overflow-x-auto">
-                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                    <table class="w-full text-sm text-left rtl:text-right text-gray-500">
                         <thead
-                            class="text-xs text-gray-400 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 border">
+                            class="text-xs text-gray-400 uppercase bg-gray-500 border">
                             <tr>
                                 <th scope="col" class="px-6 py-3">
                                     CHAIN
@@ -117,11 +117,11 @@
                     </table>
                     <div>
                         <div
-                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 relative p-10 flex justify-center items-center text-sm text-gray-400">
+                            class="bg-white border-b relative p-10 flex justify-center items-center text-sm text-gray-400">
                             <p>No notifications sent. Create a subscription to start receiving notifications.</p>
                         </div>
                         <div
-                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 relative p-4 flex justify-center items-center text-sm text-gray-400">
+                            class="bg-white border-b relative p-4 flex justify-center items-center text-sm text-gray-400">
                             <a class='text-[#003399] font-medium text-sm hover:text-[#003399d6]'
                                 href="/notifications/notifications">View sent notifications</a>
                         </div>
@@ -131,9 +131,9 @@
             <div class="relative mt-6 p-4">
                 <p class="text-xl font-semibold">Your subscriptions</p>
                 <div class="mt-5 relative overflow-x-auto">
-                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                    <table class="w-full text-sm text-left rtl:text-right text-gray-500">
                         <thead
-                            class="text-xs text-gray-400 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 border">
+                            class="text-xs text-gray-400 uppercase bg-gray-500 border">
                             <tr>
                                 <th scope="col" class="px-6 py-3">
                                     CHAIN
@@ -152,11 +152,11 @@
                     </table>
                     <div>
                         <div
-                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 relative p-10 flex justify-center items-center text-sm text-gray-400">
+                            class="bg-white border-b relative p-10 flex justify-center items-center text-sm text-gray-400">
                             <p>No subscriptions sent. Create a subscription to start receiving notifications.</p>
                         </div>
                         <div
-                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 relative p-4 flex justify-center items-center text-sm text-gray-400">
+                            class="bg-white border-b relative p-4 flex justify-center items-center text-sm text-gray-400">
                             <a class='text-[#003399] font-medium text-sm hover:text-[#003399d6]'
                                 href="/notifications/subscriptions">View sent subscriptions</a>
                         </div>

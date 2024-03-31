@@ -15,10 +15,10 @@
                         <form class="w-1/2">
                             <div class="relative max-w-sm">
                                 <label for="countries"
-                                    class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900 dark:text-white">Select
+                                    class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900">Select
                                     API Key</label>
                                 <select id="countries"
-                                    class="bg-gray-50 border border-blue-500 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 font-semibold">
+                                    class="bg-gray-50 border border-blue-500 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 font-semibold">
                                     <option>t-65...b62d - Mainnet API key</option>
                                     <option>t-65...b62d - Mainnet API key</option>
                                 </select>
@@ -31,9 +31,9 @@
                         </div>
                     </div>
                     <div class="relative overflow-x-auto">
-                        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                        <table class="w-full text-sm text-left rtl:text-right text-gray-500">
                             <thead
-                                class="text-sm text-gray-400 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 border">
+                                class="text-sm text-gray-400 uppercase bg-gray-50 border">
                                 <tr>
                                     <th scope="col" class="px-6 py-3">
                                         CHAIN
@@ -58,7 +58,7 @@
                         </table>
                         <div>
                             <div
-                                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 relative p-10 flex justify-center items-center text-sm text-gray-400">
+                                class="bg-white border-b relative p-10 flex justify-center items-center text-sm text-gray-400">
                                 <p>No subscriptions sent. Create a subscription to start receiving notifications.</p>
                             </div>
                         </div>
