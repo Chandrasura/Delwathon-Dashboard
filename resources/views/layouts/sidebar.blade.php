@@ -1,7 +1,7 @@
 <div class="flex items-center justify-start">
     <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar"
         type="button"
-        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
         <span class="sr-only">Open sidebar</span>
         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
@@ -12,9 +12,9 @@
     </button>
 </div>
 <aside id="logo-sidebar"
-    class="fixed top-0 left-0 z-40 w-64 h-screen pt-4 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
+    class="fixed top-0 left-0 z-40 w-64 h-screen pt-4 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0"
     aria-label="Sidebar">
-    <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800 custom-scrollbar">
+    <div class="h-full px-3 pb-4 overflow-y-auto bg-white custom-scrollbar">
         <div class="flex items-center mb-4">
             <img src="{{asset('assets/delwathon_dark.png')}}"  class="w-12 h-12" style="">
             <p class="text-2xl uppercase">Delwathon</p>
@@ -22,14 +22,14 @@
         <ul class="space-y-2 font-medium">
             <li>
                 <a href="/dashboard"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    class="flex items-center p-2 text-gray-900 rounded-lg group">
                     <i class='bx bx-home text-2xl'></i>
                     <span class="flex-1 ml-3 whitespace-nowrap">Overview</span>
                 </a>
             </li>
             <li>
                 <button type="button"
-                    class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
                     aria-controls="dropdown-example2" data-collapse-toggle="dropdown-example2">
                     <i class='bx bx-bell text-2xl'></i>
                     <span class="flex-1 ml-3 text-left whitespace-nowrap">Notifications</span>
@@ -42,46 +42,46 @@
                 <ul id="dropdown-example2" class="hidden py-2 space-y-2">
                     <li>
                         <a href="/notifications"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Notifications</a>
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100">Notifications</a>
                     </li>
                     <li>
                         <a href="/notifications/subscriptions"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Subscriptions</a>
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100">Subscriptions</a>
                     </li>
                     <li>
                         <a href="/notifications/notifications"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Sent notifications</a>
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100">Sent notifications</a>
                     </li>
                     <li>
                         <a href="/clients"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Clients</a>
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100">Clients</a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="#"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    class="flex items-center p-2 text-gray-900 rounded-lg group">
                     <i class='bx bx-cube-alt text-2xl'></i>
                     <span class="flex-1 ml-3 whitespace-nowrap">RPC Nodes</span>
                 </a>
             </li>
             <li>
                 <a href="#"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    class="flex items-center p-2 text-gray-900 rounded-lg group">
                     <i class='bx bx-gas-pump text-2xl'></i>
                     <span class="flex-1 ml-3 whitespace-nowrap">Faucets</span>
                 </a>
             </li>
             <li>
                 <a href="/usage"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    class="flex items-center p-2 text-gray-900 rounded-lg group">
                     <i class='bx bx-bar-chart-alt text-2xl'></i>
                     <span class="flex-1 ml-3 whitespace-nowrap">Usage</span>
                 </a>
             </li>
             <li>
                 <a href="#"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    class="flex items-center p-2 text-gray-900 rounded-lg group">
                     <i class='bx bx-list-ul text-2xl'></i>
                     <span class="flex-1 ml-3 whitespace-nowrap">Error Logs</span>
                 </a>
