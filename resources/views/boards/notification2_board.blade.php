@@ -15,10 +15,10 @@
                         <form class="w-1/2">
                             <div class="relative max-w-sm">
                                 <label for="countries"
-                                    class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900 dark:text-white">Select
+                                    class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900">Select
                                     API Key</label>
                                 <select id="countries"
-                                    class="bg-gray-50 border border-red-500 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 font-semibold">
+                                    class="bg-gray-50 border border-red-500 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 font-semibold">
                                     <option>All</option>
                                     <option>Canada</option>
                                 </select>
