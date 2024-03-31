@@ -1,27 +1,27 @@
 
 
-<div class="mb-4 border-b border-gray-200 dark:border-gray-700 flex justify-between align-center">
+<div class="mb-4 border-b border-gray-200 flex justify-between align-center">
     <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
         <li class="me-2" role="presentation">
             <button class="inline-block p-4 border-b-2 rounded-t-lg uppercase" id="charts-tab" data-tabs-target="#charts" type="button" role="tab" aria-controls="charts" aria-selected="false">Charts</button>
         </li>
         <li class="me-2" role="presentation">
-            <button class="uppercase inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="reports-tab" data-tabs-target="#reports" type="button" role="tab" aria-controls="reports" aria-selected="false">Reports</button>
+            <button class="uppercase inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300" id="reports-tab" data-tabs-target="#reports" type="button" role="tab" aria-controls="reports" aria-selected="false">Reports</button>
         </li>
     </ul>
     
 <div class="relative max-w-sm">
     <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-      <svg class="w-4 -translate-y-2 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+      <svg class="w-4 -translate-y-2 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
         <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
       </svg>
     </div>
-    <input datepicker type="text" inline-datepicker data-date="01/13/2024" datepicker-autohide datepicker-orientation="bottom right" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date">
+    <input datepicker type="text" inline-datepicker data-date="01/13/2024" datepicker-autohide datepicker-orientation="bottom right" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5" placeholder="Select date">
   </div>
   
 </div>
 <div id="default-tab-content">
-    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="charts" role="tabpanel" aria-labelledby="charts-tab">
+    <div class="hidden p-4 rounded-lg bg-gray-50" id="charts" role="tabpanel" aria-labelledby="charts-tab">
         <div>
             <div>
                 <div class="flex gap-2">
@@ -61,13 +61,13 @@
                         <div class="relative max-w-sm">
                             <label
                                 for="countries"
-                                class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900 dark:text-white"
+                                class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900"
                             >
                                 Select API Key
                             </label>
                             <select
                                 id="countries"
-                                class="bg-gray-50 border border-blue-500 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 font-semibold"
+                                class="bg-gray-50 border border-blue-500 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 font-semibold"
                             >
                                 <option>All</option>
                                 <option>Canada</option>
