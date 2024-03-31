@@ -7,12 +7,12 @@
                     <form action="/dashboard">
                         <h4 class="text-xl mb-4"><span class="font-bold">Sign in</span> to your Dashboard.</h4>
                         <div class="mb-5 relative">
-                            <label for="base-input" class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900 dark:text-white">Email</label>
-                            <input type="email" id="base-input" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 font-semibold" placeholder="your@email.com">
+                            <label for="base-input" class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900">Email</label>
+                            <input type="email" id="base-input" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 font-semibold" placeholder="your@email.com">
                         </div>
                         <div class="mb-5 relative">
-                            <label for="password" class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900 dark:text-white">Password</label>
-                            <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 font-semibold" placeholder="******">
+                            <label for="password" class="absolute top-1 left-4 block mb-2 text-xs font-medium text-gray-900">Password</label>
+                            <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 pt-5 pb-2 font-semibold" placeholder="******">
                             <i class="bx bx-show absolute cursor-pointer text-2xl right-4 top-1/2 -translate-y-1/2" id="toggle"></i>
                         </div>
                         <div class="mb-5 relative">
